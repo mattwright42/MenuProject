@@ -157,6 +157,18 @@ main > p{
     font-size: 1.5rem;
 }
 
+p{
+    padding: 1rem;
+    max-width: 65ch;
+    margin: 0 auto;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
 #my-submit{
     grid-column: 1/-1;
     padding: 1rem 1rem;
