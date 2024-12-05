@@ -144,6 +144,14 @@ h1 a:hover{
     border-radius: 32px;
 }
 
+main{
+    padding: 0rem;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: var(--lt-gray);
+    display: grid;
+}
+
 #my-submit{
     grid-column: 1/-1;
     padding: 1rem 1rem;
