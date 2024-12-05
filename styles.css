@@ -152,6 +152,42 @@ main{
     display: grid;
 }
 
+main > p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+p{
+    padding: 1rem;
+    max-width: 65ch;
+    margin: 0 auto;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.required{
+    color: var(--red);
+    font-weight: bold;
+}
+
+input, label, textarea{
+    display: block;
+    font-size: 1rem;
+}
+
+label{
+    margin: auto 0;
+    text-align: left;
+}
+
+input{
+    padding: 0;
+}
+
 #my-submit{
     grid-column: 1/-1;
     padding: 1rem 1rem;
