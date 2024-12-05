@@ -199,3 +199,10 @@ input{
     border-radius: 32px;
     justify-self: end;
 }
+
+footer{
+    background-color: var(--red);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem;
+}
