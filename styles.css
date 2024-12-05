@@ -107,7 +107,6 @@ nav ul{
 }
 
 nav a{
-    text-decoration: none;
     color: var(--red);
     text-align: center;
     font-size: 1.5rem;
@@ -122,4 +121,37 @@ header img{
 
 section img{
     display: block;
+    width: 300px;
+    height: auto;
+}
+
+a{
+    display: block;
+    padding: 1rem;
+}
+
+h1 a:hover{
+    text-decoration: overline underline;
+}
+
+#contact.html{
+    background-color: var(--red);
+    font-weight: bold;
+    color: var(--white);
+    width: fit-content;
+    margin: 1rem auto;
+    text-decoration: none;
+    border-radius: 32px;
+}
+
+#my-submit{
+    grid-column: 1/-1;
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+    background-color: var(--md-gray);
+    color: var(--white);
+    font-size: 1rem;
+    border: none;
+    border-radius: 32px;
+    justify-self: end;
 }
