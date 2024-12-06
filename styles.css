@@ -120,9 +120,11 @@ header img{
 }
 
 section img{
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 1rem;
     width: 300px;
-    height: auto;
+    margin: 1rem auto 1rem auto;
 }
 
 a{
@@ -165,8 +167,8 @@ p{
 
 form{
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 1rem;
 }
 
 .required{
